@@ -1,10 +1,11 @@
-bf = "Philip"
+bf = "philip"
+friend1 = "bobby"
+friend2 = "philip"
 
-def friendtest(friend)
-  if friend == "Philip"
-    puts("bestfriend confirmed")
-  else
-    puts("You're not my bestfriend")
-  end
-puts(friendtest[bf])
+if bf == friend1
+  puts("bobby is my best friend")
+elsif bf == friend2
+  puts("philip is my best friend")
+else
+  puts("my bestfriend is neither bobby nor philip")
 end
